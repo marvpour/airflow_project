@@ -1,4 +1,4 @@
-# Airflow Pipeline with Random Digit Count and Conditional Branching
+# Dynamic Branching Airflow DAG with Airflow Pipeline
 
 ## 📌 Overview
 This project implements an Airflow DAG that orchestrates a simple ETL-like pipeline with PostgreSQL integration. It creates tables, inserts job records, randomly generates digits to count occurrences in a string, and conditionally branches workflow tasks based on the count and error handling.
